@@ -115,8 +115,7 @@ function Projects() {
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
           <a
             target="_blank"
-            href="https://github.com/repos
-            "
+            href="https://github.com/alishshilpakar374-max?tab=repositories"
           >
             <AnimatedBorderButton>
               View All Projects
