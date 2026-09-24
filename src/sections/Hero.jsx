@@ -129,6 +129,7 @@ function Hero() {
                   <a
                     key={social.name}
                     href={social.href}
+                    target="_blank"
                     aria-label={social.name}
                     className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
                   >

@@ -51,6 +51,7 @@ function Footer() {
               <a
                 key={social.label}
                 href={social.href}
+                target="_blank"
                 aria-label={social.label}
                 className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all"
               >
