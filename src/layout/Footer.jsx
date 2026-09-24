@@ -1,7 +1,11 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const socialLinks = [
-  { icon: FaGithub, href: "https://github.com/dashboard", label: "GitHub" },
+  {
+    icon: FaGithub,
+    href: "https://github.com/alishshilpakar374-max",
+    label: "GitHub",
+  },
   {
     icon: FaLinkedin,
     href: "https://www.linkedin.com/in/alish-shilpakar-8343ba43a/",

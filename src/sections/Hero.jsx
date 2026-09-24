@@ -25,7 +25,7 @@ const socialLinks = [
   {
     name: "GitHub",
     icon: FaGithub,
-    href: "https://github.com/dashboard",
+    href: "https://github.com/alishshilpakar374-max",
   },
   {
     name: "LinkedIn",
