@@ -25,12 +25,12 @@ const socialLinks = [
   {
     name: "GitHub",
     icon: FaGithub,
-    href: "#",
+    href: "https://github.com/dashboard",
   },
   {
     name: "LinkedIn",
     icon: FaLinkedin,
-    href: "#",
+    href: "https://www.linkedin.com/in/alish-shilpakar-8343ba43a/",
   },
 ];
 
