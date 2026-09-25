@@ -104,9 +104,12 @@ function Hero() {
             </div>
 
             {/* CTAs */}
-            <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
+            <div className="flex flex-nowrap gap-4 animate-fade-in animation-delay-300">
               <a href="#contact">
-                <Button size="lg">
+                <Button
+                  size="sm"
+                  className=" sm:px-6 sm:py-2.5 sm:text-base lg:px-7 lg:py-3.5 lg:text-lg"
+                >
                   Contact Me
                   <ArrowRight className="w-5 h-5" />
                 </Button>
