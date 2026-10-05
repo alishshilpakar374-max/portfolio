@@ -1,17 +1,26 @@
 import { ArrowUpRight } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 import { AnimatedBorderButton } from "../components";
-import { RestaurantPhoto } from "../assets/images";
+import { project1, project2 } from "../assets";
 
 const projects = [
   {
     title: "Waypoint Restaurant — Food Ordering Web App",
     description:
       "A modern React restaurant web app with menu browsing, cart management, responsive design, and a polished user experience",
-    image: RestaurantPhoto,
+    image: project1,
     tags: ["React", "Tailwindcss"],
     link: "https://resturant-app-steel.vercel.app/",
     github: "https://github.com/alishshilpakar374-max/ResturantApp",
+  },
+  {
+    title: "Guest House Booking App",
+    description:
+      "A modern guest house booking website featuring room discovery, booking management, date selection, guest preferences, and a responsive design inspired by Nepalese heritage hospitality.",
+    image: project2,
+    tags: ["React", "TypeScript", "Tailwind CSS", "Vite", "Redux Toolkit"],
+    link: "https://demo-gh.vercel.app/",
+    github: "https://github.com/alishshilpakar374-max/Demo-GH",
   },
 ];
 
