@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { ArrowRight, ChevronDown, Download } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Button, AnimatedBorderButton } from "../components";
+import { psp, pfp, pfp2 } from "../assets";
 
 const skills = [
   "React",
@@ -150,25 +151,28 @@ function Hero() {
               <div className="absolute inset-0  rounded-3xl bg-linear-to-br from-primary/30 via-transparent   to-primary/10 blur-2xl  animate-pulse" />
 
               {/* Profile Card */}
-              <div className="relative glass rounded-3xl p-2 glow-border">
-                <img
-                  src="/profile-photo.jpg"
-                  alt="Alish Shilpakar"
-                  className="w-full aspect-4/5 object-cover rounded-2xl"
-                />
+              <div className="relative mx-auto w-full max-w-sm">
+                <div className="glass glow-border overflow-hidden rounded-3xl p-2">
+                  <div className="relative overflow-hidden rounded-2xl">
+                    <img
+                      src={pfp2}
+                      alt="Alish Shilpakar"
+                      className="aspect-3.5/5 w-full object-cover object-center"
+                    />
 
-                {/* Available Badge */}
-                <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
-                  <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-
-                    <span className="text-sm font-medium">
-                      Available for work
-                    </span>
+                    <div className="absolute inset-x-0 bottom-0 bg-linear-to-t from-black/80 via-black/30 to-transparent p-5 pt-16">
+                      <div className="flex items-center gap-2">
+                        <span className="h-2 w-2 rounded-full bg-emerald-400" />
+                        <span className="text-sm font-medium text-white">
+                          Available for work
+                        </span>
+                      </div>
+                      <p className="mt-1 text-xs text-white/60">
+                        Freelance · Web Development
+                      </p>
+                    </div>
                   </div>
                 </div>
-
-                {/* Experience Badge */}
               </div>
             </div>
           </div>
